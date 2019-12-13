@@ -85,5 +85,5 @@ else:
   correct += 0
   
   
-print ("\n
+
 print ("\nYou're finished, " + name +". You got", correct, "out of 9 correct.")
