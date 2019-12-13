@@ -1,0 +1,11 @@
+import time
+answer_A = ["A", "a" "1"]
+answer_B = ["B", "b" "2"]
+answer_C = ["C", "c" "3"]
+yes = ["Y", "y", "yes" "Yes"]
+no = ["N", "n", "no" "No"]
+text(""""Which of the following would you like to experience:" "A. Running from an orc" "B. A short quiz" "C. Nothing"
+ if choice in answer_A:
+ run
+ run_program "Orc_Adventure"
+elif choice un answer_B:
