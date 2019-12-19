@@ -1,3 +1,4 @@
+  
 import time
 
 
@@ -27,7 +28,7 @@ choice = input(">>> ")
 if choice in true:
   correct += 1
 else:
-  correct += 
+  correct += 0
   time.sleep(1)
   
 
@@ -69,7 +70,7 @@ else:
     
 print ("\nThis is a program.")
 choice = input(">>> ")
-if choise in true:
+if choice in true:
   correct += 1
 else:
   correct += 0
@@ -77,8 +78,8 @@ else:
   
   
 print ("\nThe Lamborghini Huracan Performanti has a 0-60 time of 5 seconds.")
-  choice = input(">>> ")
-if choise in false:
+choice = input(">>> ")
+if choice in false:
   correct += 1
 else:
   correct += 0
@@ -86,8 +87,8 @@ else:
   
   
 print ("\nThe Koenigsegg CCXR Trevita is the cheapest car.")
-  choice = input(">>> ")
-if choise in false:
+choice = input(">>> ")
+if choice in false:
   correct += 1
 else:
   correct += 0
@@ -96,4 +97,3 @@ else:
   
 
 print ("\nYou're finished, " + name +". You got", correct, "out of 9 correct.")
-
